@@ -1,8 +1,8 @@
 package main
 
 import (
-	"qiita/controller"
-	"qiita/middleware"
+	"gin_test/controller"
+	"gin_test/middleware"
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
