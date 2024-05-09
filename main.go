@@ -17,6 +17,7 @@ func main() {
 	{
 		v1 := bookEngine.Group("/v1")
 		{
+			//postmanでのテストしてもらうためのエンドポイント
 			v1.POST("/add", controller.BookAdd)
 			v1.GET("/list", controller.BookList)
 			v1.PUT("/update", controller.BookUpdate)
